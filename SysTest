@@ -118,6 +118,7 @@ elif user_param == "-u":
     banner()
     #atualizacao da ferramenta:
     print("Atualizando... aguarde!")
+    os.system("bash update.sh")
 
 elif user_param == "-a":
     banner()
