@@ -1,7 +1,7 @@
 #!/bin/python3
 
 """
-A Test System é uma ferramenta de analise de falhas totalmente automatizada, criada para diminuir o tempo de um Pentesting em um sistema!
+A SysTest é uma ferramenta de analise de falhas totalmente automatizada, criada para diminuir o tempo de um Pentesting em um sistema!
 """
 
 def banner():
@@ -30,13 +30,13 @@ user_param = sys.argv[1]
 if user_param == "-h":
     banner()
     print("""
-Test System instruções!
+SysTest instruções!
 
-python TestSystem -h -- Instruções de uso.
-python TestSystem -o <site> -- Começar o scaneamento por vulnerabilidades no site digitado. Exemplo: python TestSystem -o https://google.com
-python TestSystem -i -- Lista de ações realizadas pelo script.
-python TestSystem -u -- Update para novas versões.
-python TestSystem -a -- Listagem de informações do script.
+python SysTest -h -- Instruções de uso.
+python SysTest -o <site> -- Começar o scaneamento por vulnerabilidades no site digitado. Exemplo: python TestSystem -o https://google.com
+python SysTest -i -- Lista de ações realizadas pelo script.
+python SysTest -u -- Update para novas versões.
+python SysTest -a -- Listagem de informações do script.
     """)
 
 #analise de vulnerabilidades:
@@ -123,7 +123,7 @@ elif user_param == "-u":
 elif user_param == "-a":
     banner()
     print("""
-TestSystem!
+SysTest!
 
 .-Criador: MaykonDev.
 .-Versão: 0.1 beta
