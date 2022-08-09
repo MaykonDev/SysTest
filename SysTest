@@ -33,7 +33,7 @@ if user_param == "-h":
 Test System instruções!
 
 python SysTest -h -- Instruções de uso.
-python SysTest -o <site> -- Começar o scaneamento por vulnerabilidades no site digitado. Exemplo: python TestSystem -o https://google.com
+python SysTest -o <site> -- Começar o scaneamento por vulnerabilidades no site digitado. Exemplo: python SysTest -o https://google.com
 python SysTest -i -- Lista de ações realizadas pelo script.
 python SysTest -u -- Update para novas versões.
 python SysTest -a -- Listagem de informações do script.
@@ -114,7 +114,8 @@ elif user_param == "-o":
         lista = [20, 21, 22, 80, 443, 8080]
         for ports in lista:
             if sock.connect_ex((IpAddress, ports)) == 0:
-                                                                                           print(f"Porta {ports} Aberta!")
+                print(f"Porta {ports} Aberta!")
+                sock.close()
             else:
                 print(f"Porta {ports} Fechada!")
                 sock.close()
