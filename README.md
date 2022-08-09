@@ -1,5 +1,9 @@
 <h1 text align='center'>SysTest</h1>
+
 </br>
+
+<img src='https://img.shields.io/badge/-open%20source%20-brightgreen'>
+<img src='https://img.shields.io/badge/-python%20-brightgreen'>
 
 <p><i><strong>SysTest</strong> é uma ferramenta criada para ser usada em Pentests (testes de invasões), feita 100% em Python 3, ela realiza alguns testes simples totalmente automatizados, tais são: um bruteforce de diretórios na url inserida pelo usuário, com base em algumas dorks comuns em se encontrar em sites, e logo após um port scanner nas portas [20, 21, 22, 80, 443 e 8080].</i></p>
 
