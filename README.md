@@ -20,7 +20,7 @@
     git clone https://github.com/MaykonDev/SysTest
     cd SysTest
     
-     python SysTest -h #Para ter o manual de uso da ferramenta
+    python SysTest -h #Para ter o manual de uso da ferramenta
 
 <h2 text align='center'>Aviso</h2>
 
