@@ -1,7 +1,5 @@
 <h1 text align='center'>SysTest</h1>
 
-</br>
-
 <img src='https://img.shields.io/badge/-open%20source%20-brightgreen'>
 <img src='https://img.shields.io/badge/-python%20-brightgreen'>
 
